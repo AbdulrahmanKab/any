@@ -1,0 +1,174 @@
+body{
+    width:80%;
+    font-family: Fahkwang,monospace;
+}
+main{
+ display: block;
+    margin-bottom: 230%;
+}
+nav{
+    background-color: black;
+    position: absolute;
+    top:0px;
+    left: 0px;
+    right: 0px;
+    color: #f2a900;
+    text-transform: capitalize;
+}
+
+nav li{
+    display: inline-block;
+    list-style-type: none;
+    margin-left:8px ;
+    margin-right: 8px;
+    margin-bottom: 0px;
+    font-weight:bold;
+    font-size: 20px ;
+}
+
+.homeimage{
+    width: 30px;
+    height: 40px;
+    display: inline-block;
+    position: absolute;
+    top:7px;
+    left: 25px;
+}
+.btn-home{
+    background-color: #99150e;
+
+position: absolute;
+    right: 10px;
+    top: 5px;
+    height: 40px;
+
+}
+button:hover{
+    background-color: #ffd42a;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    border-radius: 6%;
+    background-color: black;
+    padding: 12px 16px;
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.homePhoto{
+    position: absolute;
+    left: 0px;
+    margin-top: 45px;
+    padding: 0px;
+animation-name: homephoto;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+.homePhoto2{
+    position: absolute;
+    left: 0px;
+    margin-top: 45px;
+    padding: 0px;
+    animation-name: homephoto2;
+    animation-duration: 40s;
+    animation-iteration-count: infinite;
+}
+.person{
+    width: 4%;
+    position: absolute;
+    z-index: 1px;
+    left: 500px;
+    top: 280px;
+}
+.video{
+    width: 5%;
+    position: absolute;
+    z-index: 1px;
+    left: 645px;
+    top: 280px;
+}
+.textvideo{
+    font-family: Cairo,monospace;
+    color: white;
+    position: absolute;
+    z-index: 1px;
+    left: 650px;
+    top: 350px;
+    font-size: 36px;
+    font-weight: bold;
+}
+.textvideo1{
+    font-family: Cairo, cursive;
+    color: white;
+    position: absolute;
+    z-index: 1px;
+    left: 640px;
+    top: 390px;
+    font-size: 36px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.textPerson{
+    color: white;
+    position: absolute;
+    z-index: 1px;
+    left: 500px;
+    top: 350px;
+    font-family: Cairo,monospace;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.textPerson1{
+    color: white;
+    position: absolute;
+    z-index: 1px;
+    left: 500px;
+    top: 390px;
+    font-family: Cairo, cursive;
+    font-size: 36px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+@keyframes homephoto {
+ 0%{
+     opacity: 1;
+ }
+    50%{
+     opacity: 0;
+ }
+}
+@keyframes homephoto2 {
+   0%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 1;
+    }
+}
+.footer{
+    display: block;
+    background-color: black;
+    color: #f2a900;
+    width: 100%;
+    position: absolute;
+    left: 0px;
+    margin: 0px;
+    padding: 0px;
+    margin-left: 0px;
+    padding-left: 0px;
+    font-size: 20px;
+    font-style: italic;
+}
+footer-content{
+
+}
